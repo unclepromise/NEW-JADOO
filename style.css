@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1160px;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin: 47px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 114px;
+    height: 35;
+}
+
+.nav-item {
+    margin-right: 62px;
+    font-size: 17px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #212832;
+
+}
+
+.nav-btn {
+    height: 40px;
+    width: 102px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-select {
+    border: none;
+
+}
