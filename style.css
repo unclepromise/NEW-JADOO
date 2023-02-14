@@ -227,3 +227,158 @@ header {
     font-size: 16px;
     padding-top: 19px;
 }
+
+.left-trip-section {
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.right-trip-section {
+    width: 50%;
+    /* border: 1px solid green; */
+    /* background-image: url(./Image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    overflow: hidden;
+}
+
+.trip {
+    display: flex ;
+    height: 492px;
+    margin-top: 150px;
+}
+
+.trip-img {
+    position: relative;
+    bottom: 135px;
+    right: 40px;
+}
+
+.triple-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.trip-text {
+    margin-left: 21px;
+    width: 327px;
+}
+
+.trip-sm-heading {
+    text-align: left;
+    line-height: 27px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.trip-big-heading {
+    text-align: left;
+    line-height: 64.5px;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+}
+
+.testimonial {
+    display: flex;
+    margin-top: 130px;
+}
+
+.partners {
+    margin-top: 90px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.partner-img {
+    margin-right: 80px;
+    display: inline-block;
+    height: max-content;
+}
+
+.sub-heading {
+    text-align: center;
+    color: #5E6282;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 54px;
+    padding-top: 79px;
+}
+
+/* .subscribe-heading{
+    text-align: center;
+    color: #5E6282;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 54px;
+    padding-top: 79px;
+
+} */
+
+
+.form-box {
+    display: flex;
+    /* align-items: center; */
+    width: 421px;
+    margin: 74px 30px 78px 300px;
+    /* border: 1px solid; */
+    background-color: white;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.subscribe {
+    background-color: #DFD7F9;
+    border-top-left-radius: 80px;
+    height: 407px;
+    position: relative;
+    z-index: 1;
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content: center;
+}
+
+.font_awe {
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    z-index: 10;
+}
+
+
+.input-box {
+    display: flex;
+    width: 1000px;
+    height: 68px;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* padding-left: 31px; */
+    /* margin-right: 0; */
+}
+
+input {
+    width: 350px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 48px;
+    border: none;
+    outline: none;
+    padding-left: 14px;
+    font-size: 17px;
+}
+
+.subscribe-btn {
+    width: 180px;
+    background-color: #FF946D;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-left: 50px;
+    /* position: fixed; */
+}
