@@ -242,6 +242,10 @@ header {
     overflow: hidden;
 }
 
+.dotted-img {
+    margin-top: 100px;
+}
+
 .trip {
     display: flex ;
     height: 492px;
@@ -287,7 +291,7 @@ header {
 }
 
 .partners {
-    margin-top: 90px;
+    margin-top: 50px;
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
@@ -381,4 +385,80 @@ input {
     padding: 0px 20px;
     margin-left: 50px;
     /* position: fixed; */
+}
+
+
+.top-footer {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 187px;
+}
+
+.inner-top-footer {
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 120px;
+    margin-right: 70px;
+}
+
+.inner-top-footer-jadoo {
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 200px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.bottom-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.43px;
+    color: #5E6282;
+}
+
+.footer-jadoo {
+    margin-top: 0;
+    margin-bottom: 19px;
+    font-size: 44px;
+    /* line-height: 66px; */
+    font-weight: 500;
+    color: #181E4B;
+}
+
+.footer-h5 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 26.15px;
+    font-weight: 700;
+    color: #080809;
+}
+
+.footer-h5-p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    color: #5E6282;
+    line-height: 22.4px;
+}
+
+.inner-top-footer-icons {
+    width: 220px;
+    height: 146px;
+    /* border: 1px solid red; */
+}
+
+.footer-p-discover {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24.9px;
+    color: #5E6282;
+    /* margin-top: 18px; */
+    margin-bottom: 12px;
 }
